@@ -1,1 +1,1 @@
-console.log('Mensaje original');
+console.log('Desde rama B');
