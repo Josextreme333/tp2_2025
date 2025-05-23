@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-Texto desde rama 1
-=======
+
 Texto desde rama 2
->>>>>>> conflicto-1b
+
