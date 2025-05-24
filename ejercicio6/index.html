@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Formulario de Datos</h1>
+  <form id="formulario">
+    <label>Nombre: <input type="text" id="nombre" /></label><br>
+    <label>Apellido: <input type="text" id="apellido" /></label><br>
+    <label>Edad: <input type="number" id="edad" /></label><br>
+    <label>Altura (cm): <input type="number" id="altura" /></label><br>
+    <label>Correo: <input type="email" id="correo" /></label><br>
+    <button type="button" onclick="validar()">Enviar</button>
+  </form>
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
